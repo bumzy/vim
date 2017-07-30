@@ -133,8 +133,8 @@ func SetTitle()
 	else 
 		call setline(1, "/*************************************************************************") 
 		call append(line("."), "	> File Name: ".expand("%")) 
-		call append(line(".")+1, "	> Author: ") 
-		call append(line(".")+2, "	> Mail: ") 
+		call append(line(".")+1, "	> Author: bumzy") 
+		call append(line(".")+2, "	> Mail: bumzy@gmail.com") 
 		call append(line(".")+3, "	> Created Time: ".strftime("%c")) 
 		call append(line(".")+4, " ************************************************************************/") 
 		call append(line(".")+5, "")
@@ -174,7 +174,7 @@ map! <C-O> <C-Y>,
 map <C-A> ggVG$"+y
 map <Esc><Esc> :w<CR>
 map <F12> gg=G
-map <C-w> <C-w>w
+"map <C-w> <C-w>w
 imap <C-k> <C-y>,
 imap <C-t> <C-q><TAB>
 imap <C-j> <ESC>
